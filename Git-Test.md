@@ -36,3 +36,57 @@ git status -- команда, вызов. блок инф. по состояни
 git branch -- выводит ветки
 branch -- ветка
 git branch name -- создание ветки
+
+## Homework
+
+git init -- инициализировать (запустить гид) создать локальный репозиторий
+
+git status -- статус, есть ли коммиты (сохранения) и тд 
+
+git commit -m "Создали новый файл" -- создать и сохранить комментарий. Фиксирует изменения и сообщает о появлении новых версий
+
+git config --global user.email "gea950705@gmail.com" -- ввести почту
+git config --global user.name "RinVaris" -- ввести логин
+
+git checkout [ввести первые 4 символа и таб]-- вызвать предыдущию версию 
+
+git add <имя файла> -- добавления файла в каталог репозитория
+
+git diff -- для вычесления разниы меджду любми двумя git деревьями 
+
+git log -- просмотр истории коммитов
+
+git version -- проверка есть ли гит и какой версии
+
+Репозиторий - хранилище файло , поддерживающих версионность
+
+git config --global user.name 
+"RinVaris" -- проверить коммиты пользователя
+
+gid commit -am "чтобы сохранять версию без комманды git add"
+commit 6d171de84b290943aac310cd3025a80d3f9d61de -- это хеш уникального коммита
+
+git branch -- посмотреть все ветки
+
+git branch имя -- создать новую ветку
+
+git branch -d -- удалить ветку
+git branch -b имя -- создать и перейти в ветку
+clear 
+
+git merge имя ветки -- слияние ветки с веткой мастер
+
+git branch -d  имя ветки -- удалить ненужную ветку 
+
+.gitignore -- Создать файл с таким именим и внутри файла внести имя файла который нужно игнорировать. Файл нужно будет добавить в гит через git add .gitignore и git commit -m
+
+git log --graph   -- увидеть все коммиты в виде графика
+
+git clone https://github.com/ilnar-geekbrains/version_control_lection_3.git - клонирования репозитория из github
+
+git pull -- стянуть все изменения с удаленного репозитория и смержить ветки
+
+Добавление 
+git remote add origin https://github.com/RinVaris/Test.git
+git branch -M main
+git push -u origin main
