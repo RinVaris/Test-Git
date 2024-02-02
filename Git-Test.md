@@ -65,6 +65,23 @@ git config --global user.name
 
 gid commit -am "чтобы сохранять версию без комманды git add"
 commit 6d171de84b290943aac310cd3025a80d3f9d61de -- это хеш уникального коммита
+git config --global user.email "mail" -- ввести почту
+git config --global user.name "name" -- ввести логин
+
+git checkout [ввести первые 4 символа и таб]-- вызвать предыдущию версию 
+
+git add <имя файла> -- добавления файла в каталог репозитория
+
+git diff -- для вычесления разниы меджду любыми двумя git деревьями 
+
+git log -- просмотр истории коммитов
+
+git version -- проверка есть ли git и какой версии
+
+Репозиторий - хранилище файлов , поддерживающих версионность
+
+git config --global user.name 
+"name" -- проверить коммиты пользователя
 
 git branch -- посмотреть все ветки
 
@@ -82,7 +99,7 @@ git branch -d  имя ветки -- удалить ненужную ветку
 
 git log --graph   -- увидеть все коммиты в виде графика
 
-git clone https://github.com/ilnar-geekbrains/version_control_lection_3.git - клонирования репозитория из github
+git clone <ссылка с git> - клонирования репозитория из github
 
 git pull -- стянуть все изменения с удаленного репозитория и смержить ветки
 
